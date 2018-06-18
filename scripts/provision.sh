@@ -35,5 +35,4 @@ ca-certificates \
 && curl -sL https://deb.nodesource.com/setup_8.x | bash - \
 && apt-get install -y --no-install-recommends nodejs \
 && sudo npm i -g npm@6 \
-&& sudo npm i -g yarn \
-&& sudo npm i -g node-sass
+&& sudo npm i -g yarn
