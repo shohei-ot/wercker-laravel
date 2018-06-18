@@ -34,6 +34,6 @@ ca-certificates \
 && sudo -u postgres psql -c "CREATE EXTENSION postgis; CREATE EXTENSION postgis_topology;" homestead \
 && curl -sL https://deb.nodesource.com/setup_8.x | bash - \
 && apt-get install -y --no-install-recommends nodejs \
-&& npm i -g npm@6 \
-&& npm i -g yarn \
-&& npm i -g node-sass
+&& sudo npm i -g npm@6 \
+&& sudo npm i -g yarn \
+&& sudo npm i -g node-sass
