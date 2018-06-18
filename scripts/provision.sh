@@ -1,7 +1,23 @@
 #!/bin/bash
 apt-get -o Acquire::Check-Valid-Until=false update \
-&& apt-get upgrade -y \
-&& apt-get install -y wget curl lsb-release apt-transport-https gnupg2 vim sudo git \
+&& apt-get install -y \
+wget \
+curl \
+lsb-release \
+apt-transport-https \
+gnupg2 \
+vim \
+sudo \
+git \
+libpng-dev \
+libfreetype6-dev \
+libtool \
+pngquant \
+autoconf \
+automake \
+sysstat \
+openssl \
+ca-certificates \
 && wget -O /etc/apt/trusted.gpg.d/php.gpg https://packages.sury.org/php/apt.gpg \
 && apt-get -o Acquire::Check-Valid-Until=false update \
 && bash -c 'echo "deb https://packages.sury.org/php/ $(lsb_release -sc) main" >> /etc/apt/sources.list.d/php.list' \
