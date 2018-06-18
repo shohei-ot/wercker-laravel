@@ -11,3 +11,4 @@ webサーバは含みません。
 - postgresql 9.6 + PostGIS 2.3
 - nodejs 8.x
 - npm 6
+- yarn 1.7
