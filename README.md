@@ -12,3 +12,4 @@ webサーバは含みません。
 - nodejs 8.x
 - npm 6
 - yarn 1.7
+- node-sass
